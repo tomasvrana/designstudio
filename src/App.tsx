@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
@@ -35,9 +35,9 @@ const AppRoutes = () => {
 export const App = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <BrowserRouter>
+      <HashRouter>
         <AppRoutes />
-      </BrowserRouter>
+      </HashRouter>
     </Suspense>
   );
 };
