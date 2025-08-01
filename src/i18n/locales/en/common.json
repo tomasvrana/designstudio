@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Frontend Developer",
+    "description": "ulrtra cool",
+    "cta": "View"
+  },
+  "home": {
+    "featuredProjects": "EnVybrané projekty"
+  },
+  "about": {
+    "title": "about",
+    "description": "En frontend vývojář..."
+  },
+  "portfolio": {
+    "title": "Msaoje projekty",
+    "allProjects": "Všecsshny",
+    "noProjects": "Žádsné projekty nenalezeny",
+    "readMore": "Čístvíce",
+    "viewProject": "Zobrazitprojekt",
+    "projectNotFound": "Projt nenalezen"
+  }
+}

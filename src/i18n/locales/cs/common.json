@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "Domů",
+    "about": "O mně",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title": "Frontend Developer",
+    "description": "Tvořím krásné a responzivní webové aplikace",
+    "cta": "Zobrazit projekty"
+  },
+  "home": {
+    "featuredProjects": "Vybrané projekty"
+  },
+  "about": {
+    "title": "O mně",
+    "description": "Jsem frontend vývojář..."
+  },
+  "portfolio": {
+    "title": "Moje projekty",
+    "allProjects": "Všechny",
+    "noProjects": "Žádné projekty nenalezeny",
+    "readMore": "Číst více",
+    "viewProject": "Zobrazit projekt",
+    "projectNotFound": "Projekt nenalezen"
+  }
+}
