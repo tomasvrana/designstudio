@@ -35,7 +35,7 @@ const AppRoutes = () => {
 export const App = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
     </Suspense>
