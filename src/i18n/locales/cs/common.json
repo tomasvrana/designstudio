@@ -1,7 +1,8 @@
 {
   "navigation": {
     "home": "Domů",
-    "about": "O mně",
+    "about": "O nás",
+    "contact": "Kontakt",
     "portfolio": "Portfolio"
   },
   "hero": {

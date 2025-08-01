@@ -20,6 +20,7 @@ export const Header = () => {
           <Link to={`/${currentLang}`}>{t('navigation.home')}</Link>
           <Link to={`/${currentLang}/about`}>{t('navigation.about')}</Link>
           <Link to={`/${currentLang}/portfolio`}>{t('navigation.portfolio')}</Link>
+          <Link to={`/${currentLang}/contact`}>{t('navigation.contact')}</Link>
           <button onClick={() => changeLanguage(currentLang === 'en' ? 'cs' : 'en')}>
             {currentLang.toUpperCase()}
           </button>
